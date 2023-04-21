@@ -1,126 +1,78 @@
-.places {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	margin: 45px auto;
-	text-align: center;
+.container section.places h1{
+    text-align:left;
+    font-size: 30px;
+}
+.container section.places article{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border: solid 1px #ff5a5f;
+    border-radius: 4px;
+}
+.container section.places article h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+.container section.places div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.container section.places h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container section.places div article .price_by_night{
+    color: #ff5a5f;
+    border: solid 1px #ff5a5f;
+    min-width: 60px;
+    border-radius: 4px;
+    height: 60px;
+    font-size: 30px;
+}
+.container section.places div article .information{
+    height: 80px;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-top:solid 1px #dddddd;
+    border-bottom:solid 1px #dddddd;
+    
+}
+.container section.places div article .information .max_guest{
+    content: url('../images/guest.png');
+    width: 100px;
+
+}
+.container section.places div article .information .number_rooms{
+    content: url('../images/bedroom.png');
+    width: 100px;
+
+}
+.container section.places div article .information .number_bathrooms{
+    content: url('../images/bathroom.png');
+    width: 100px;
+    
+
 }
 
-article {
-	display: flex;
-	width: 390px;
-	flex: none;
-	flex-wrap: wrap;
-	flex-direction: row;
-	align-content: flex-start;
 
-	padding-top: 10px;
-	padding-right: 20px;
-	padding-left: 20px;
-	padding-bottom: 20px;
-	margin: 20px;
-
-	border: 1px solid #FF5A5F;
-	border-radius: 4px;
+.container section.places div article .information{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
-
-.headline {
-	display: flex;
-	flex-direction: row;
-	position: relative;
-
-	height: 80px;	
-	width: 100%;
+.container section.places div article .user{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
-
-.price_by_night {
-	display: flex;
-	justify-content: center;
-	align-self: flex-end;
-
-	position: absolute;
-	right: 0;
-
-	line-height: 60px;
-	color: #FF5A5F;
-	font-size: 30px;
-	padding: 5px;
-	border: 4px solid #FF5A5F;
-	border-radius: 100%;
-	float: right;
-	min-width: 60px;
-	height: 60px;
-}
-
-.information {
-	display: block;
-	height: 80px;
-	width: 100%;
-	border-top: 1px solid #DDDDDD;
-	border-bottom: 1px solid #DDDDDD;
-
-	padding-top: 5px;
-	padding-bottom: 12px;
-	margin-top: 10px;
-	margin-bottom: 20px;
-}
-
-.max_guest, .number_rooms, .number_bathrooms {
-	display: inline-block;
-	width: 100px;
-	text-align: center;
-	margin: 0px auto;
-}
-
-.user {
-	margin-top: 5px;
-	margin-bottom: 5px;	
-}
-
-.description {
-	text-align: left;
-}
-
-h1 {
-	display: block;
-	text-align: left;
-	width: 95%;
-	display: block;
-	margin-top: 0px;
-	margin-left: 20px;
-	margin-bottom: 5px;
-	font-size: 30px;
-}
-
-article h2 {
-	font-size: 30px;
-	margin: 10px auto;
-	padding: 0px;
-}
-
-.guest_icon {
-	display: inline-block;
-	background-image: url("../images/icon_group.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	width: 50px;
-	height: 50px;
-}
-
-.bed_icon {
-	display: inline-block;
-	background-image: url("../images/icon_bed.png");
-	background-repeat: no-repeat;
-	background-position: center;
-    width: 50px;
-    height: 50px;
-}
-
-.bath_icon {
-	display: inline-block;
-	background-image: url("../images/icon_bath.png");
-	background-repeat: no-repeat;
-	background-position: center;
-    width: 50px;
-    height: 50px;
+.container section.places div article .description{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
